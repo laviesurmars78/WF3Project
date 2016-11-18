@@ -1,8 +1,6 @@
 $(document).ready(function(){
-	alert('AJAX BIOFORCE3');
 	$('#cat').on('change', changeCat);
 });
-
 
 function changeCat() 
 {
@@ -16,7 +14,6 @@ function changeCat()
 		success: fctSuccess,
 		error: fctError,
 	});
-
 }
 
 function fctSuccess(data) 
